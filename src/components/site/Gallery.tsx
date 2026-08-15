@@ -74,8 +74,8 @@ export function Gallery() {
             key={active}
             initial={{ opacity: 0, scale: 0.97 }}
             animate={{ opacity: 1, scale: 1 }}
-            src={images[active].src}
-            alt={images[active].alt}
+            src={images[active]!.src}
+            alt={images[active]!.alt}
             className="max-h-[85vh] w-auto max-w-full object-contain"
           />
         </div>
