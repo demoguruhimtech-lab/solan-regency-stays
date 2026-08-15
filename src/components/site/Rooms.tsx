@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
-import roomDouble from "@/assets/room-double.png";
-import roomFamily from "@/assets/room-family.png";
-import roomDeluxe from "@/assets/room-deluxe.png";
-import roomClassic from "@/assets/room-classic.png";
 import { Reveal, SectionHeading } from "./Reveal";
 import { telHref, waLink } from "@/lib/hotel";
+
+const roomDouble = "/images/room-double.png";
+const roomFamily = "/images/room-family.png";
+const roomDeluxe = "/images/room-deluxe.png";
+const roomClassic = "/images/room-classic.png";
 
 const features = [
   "Private bathroom",

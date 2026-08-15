@@ -12,8 +12,9 @@ import {
   Sun,
   ShieldCheck,
 } from "lucide-react";
-import bathroom from "@/assets/bathroom.png";
 import { Reveal, SectionHeading } from "./Reveal";
+
+const bathroom = "/images/bathroom.png";
 
 const facilities = [
   { icon: Wifi, t: "Free Wi-Fi", d: "High-speed internet throughout the hotel." },

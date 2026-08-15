@@ -1,9 +1,10 @@
 import { Check, Star, MapPin, Mountain, BedDouble, Wifi, Car } from "lucide-react";
 import { motion } from "framer-motion";
-import exterior from "@/assets/hotel-exterior.png";
-import terrace from "@/assets/terrace-night.png";
 import { Reveal, SectionHeading } from "./Reveal";
 import { waLink } from "@/lib/hotel";
+
+const exterior = "/images/hotel-exterior.png";
+const terrace = "/images/terrace-night.png";
 
 const highlights = [
   "Comfortable rooms",

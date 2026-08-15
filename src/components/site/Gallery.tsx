@@ -1,17 +1,18 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { X } from "lucide-react";
-import sunrise from "@/assets/view-sunrise.png";
-import roomFamily from "@/assets/room-family.png";
-import exterior from "@/assets/hotel-exterior.png";
-import roomDeluxe from "@/assets/room-deluxe.png";
-import bathroom from "@/assets/bathroom.png";
-import dining from "@/assets/dining.png";
-import mountainView from "@/assets/mountain-view.png";
-import roomDouble from "@/assets/room-double.png";
-import terrace from "@/assets/terrace-night.png";
-import roomClassic from "@/assets/room-classic.png";
 import { SectionHeading } from "./Reveal";
+
+const sunrise = "/images/view-sunrise.png";
+const roomFamily = "/images/room-family.png";
+const exterior = "/images/hotel-exterior.png";
+const roomDeluxe = "/images/room-deluxe.png";
+const bathroom = "/images/bathroom.png";
+const dining = "/images/dining.png";
+const mountainView = "/images/mountain-view.png";
+const roomDouble = "/images/room-double.png";
+const terrace = "/images/terrace-night.png";
+const roomClassic = "/images/room-classic.png";
 
 const images = [
   { src: sunrise, alt: "Sunrise over the Himalayan ranges near Solan", span: "lg:col-span-2 lg:row-span-2" },

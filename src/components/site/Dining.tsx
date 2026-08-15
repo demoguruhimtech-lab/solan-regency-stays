@@ -1,6 +1,7 @@
-import dining from "@/assets/dining.png";
 import { Reveal, SectionHeading } from "./Reveal";
 import { waLink } from "@/lib/hotel";
+
+const dining = "/images/dining.png";
 
 const points = [
   "Freshly prepared Indian dishes",
